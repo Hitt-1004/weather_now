@@ -1,0 +1,81 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f0f4f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  width: 200px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.weather-container {
+  margin-top: 1.5rem;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Same as previous, with styles for new components like .forecast-grid and .favorites */
+.hourly-forecast {
+  margin-top: 1.5rem;
+}
+
+.forecast-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+}
+
+.forecast-item {
+  background: #f0f4f8;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.favorites ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorites li {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.favorites li:hover {
+  background-color: #f0f4f8;
+}
